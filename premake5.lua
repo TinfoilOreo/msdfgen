@@ -27,7 +27,7 @@ project "msdfgen"
 		"ext/**.hpp",
 		"ext/**.h",
 		"lib/**.cpp",
-		"include/**.h",
+		"lib/**.h",
 
         "freetype/include/ft2build.h",
 		"freetype/include/freetype/*.h",
