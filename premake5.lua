@@ -15,13 +15,19 @@ project "msdfgen"
     includedirs {
         "%{IncludeDir.MsdfGen}",
         "freetype/include",
-        "artery-font-format"
+        "artery-font-format",
+		"lib"
     }
     
     files {
         "core/**.cpp",
         "core/**.hpp",
         "core/**.h",
+		"ext/**.cpp",
+		"ext/**.hpp",
+		"ext/**.h",
+		"lib/**.cpp",
+		"include/**.h",
 
         "freetype/include/ft2build.h",
 		"freetype/include/freetype/*.h",
