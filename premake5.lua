@@ -69,6 +69,7 @@ project "msdfgen"
 		"freetype/src/raster/raster.c",
 		"freetype/src/sdf/sdf.c",
 		"freetype/src/sfnt/sfnt.c",
+		"freetype/src/svg/svg.c",
 		"freetype/src/smooth/smooth.c",
 		"freetype/src/truetype/truetype.c",
 		"freetype/src/type1/type1.c",
